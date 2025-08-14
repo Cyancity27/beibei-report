@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>贝贝 & feng · 2024--2025 恋爱年报</title>
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.css"/>
+</head>
+<body>
+  <!-- 导航 -->
+<nav class="nav">
+  <ul>
+    <li><a data-scroll="cover" class="nav-item">扉页</a></li>
+    <li><a data-scroll="firstday" class="nav-item">第一章</a></li>
+    <li><a data-scroll="timeline" class="nav-item">第二章</a></li>
+    <li><a data-scroll="stats" class="nav-item">第三章</a></li>
+    <li><a data-scroll="gallery" class="nav-item">第四章</a></li>
+    <li><a data-scroll="media" class="nav-item">第五章</a></li>
+    <li><a data-scroll="letter" class="nav-item">最终章</a></li>
+  </ul>
+</nav>
+
+  <!-- 0 扉页 -->
+<section id="cover" class="section">
+  <div class="cover-bg">
+    <div class="cover-fallback-bg"></div>
+    <video
+      class="cover-video"
+      src="./ccdd.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FFF9F5'/%3E%3Cstop offset='50%25' style='stop-color:%23F5E6E8'/%3E%3Cstop offset='100%25' style='stop-color:%23E7B5A1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1920' height='1080' fill='url(%23bg)'/%3E%3C/svg%3E"
+    ></video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <h1 class="cover-title">
+    <span class="name-left">徐贝贝</span>
+    <span class="heart">&</span>
+    <span class="name-right">20岁生日快乐</span>
+  </h1>
+
+  <p class="cover-sub">2024 到 2025 · 我们的恋爱年报</p>
+
+  <p class="cover-quote">
+    "于千万人之中遇见你所要遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，那也没有别的话可说，惟有轻轻地问一声：‘噢，你也在这里吗？"  <br> —— 张爱玲《爱》
+  </p>
+</section>
+
+
+<!-- 1 相识那一天 -->
+<section id="firstday" class="section">
+  <h2 class="section-title">—— 幸好，那天认识了你 ——</h2>
+  <p class="zone-description">
+    故事开始于二〇二四年八月底的一个晚上。两周暑假临近尾声，百无聊赖的我背靠在柜子上，突然很想和人说话，随便说说，只要能有个人回应。就这样，在避开了市面上所有主流的交友软件后，我跌跌撞撞地遇见了你。
+    我不是个擅长交际的人，可能会有点笨拙的主动，只是因为没有那么害怕丢脸。但那天，所有的对话似乎都发生得恰到好处。现在回想起来，每一次试探，每一次回应，都像是命运在我们之间悄悄地织起一张看不见的网。
+  </p>
+
+  <div class="playback-container">
+    <div class="chat-window" id="chatWindow">
+      </div>
+    <div class="playback-controls">
+      <button id="playPauseBtn" class="control-btn" aria-label="Play or Pause Animation"></button>
+      <div class="speed-control">
+        <label for="speedSlider">播放速度</label>
+        <input type="range" id="speedSlider" min="0.5" max="8" value="0.5" step="0.5">
+        <span id="speedValue">0.5x</span>
+      </div>
+    </div>
+  </div>
+
+  <audio id="firstdayBgm" loop>
+      <source src="./assets/media/music/bgm.mp3" type="audio/mpeg" />
+  </audio>
+
+  <p class="zone-description2">
+    记得很清楚，你说喜欢数学，数学很好的女生我见过很多，但我从未在某人口中听到这样说过。那个时刻过后的我仿佛有预感似地，每次对话时砰砰跳动的像要跃出来的是我的心脏。
+    我们开始了长达半个月，一个月，每一天的聊天。我承认，从最初的礼貌到之后的抗拒，一切都有迹可循。我很抗拒，因为很多很多，有些倾诉于你，有些早已忘记。
+    最后大概是年底，我们又像第一次认识一样，从这里再一次重新认识。
+  </p>
+</section>
+
+
+<!-- 2 时光轴 -->
+<!--<section id="timeline" class="section">-->
+<!--  <h2 class="section-title">—— 从此，所有时间都有了意义 ——</h2>-->
+<!--  <div id="timelineChart" class="chart-box"></div>-->
+<!--</section>-->
+
+<section id="timeline" class="section">
+  <h2 class="section-title">—— 从此，所有时间都有了意义 ——</h2>
+  <p class="section-subtitle">我只知道，每一刻都闪耀着独一无二的我们。</p>
+
+  <div class="timeline-stats">
+    <div class="stat-card" id="late-night-card">
+      <div class="stat-icon">🌙</div>
+      <div class="stat-value" id="lateNightCount">0</div>
+      <div class="stat-label">次深夜畅谈</div>
+    </div>
+    <div class="stat-card" id="sickness-card">
+      <div class="stat-icon">❤️‍🩹</div>
+      <div class="stat-value" id="sicknessCount">0</div>
+      <div class="stat-label">次你身体不舒服</div>
+    </div>
+  </div>
+
+  <div class="chart-box" id="timelineChart"></div>
+
+  <div class="preferences-section">
+    <h3 class="preferences-title">你的喜好画廊</h3>
+    <h3>这里的处理流程比较粗糙，所以有很多的记录结果并不是那么的准确...</h3>
+    <div class="preferences-gallery" id="preferencesGallery">
+      </div>
+  </div>
+</section>
+
+ <!-- 3 数据爱意 -->
+<!--<section id="stats" class="section">-->
+<!--  <h2 class="section-title">—— 数字里的爱意 ——</h2>-->
+<!--  <div class="flip-cards" id="flipCards"></div>-->
+<!--  <div class="chart-box"><div id="emotionChart"></div></div>-->
+<!--  <div class="word-cloud"><img id="wordCloud" src="output/wordcloud.png"/></div>-->
+<!--</section>-->
+
+  <section id="stats" class="section">
+  <h2 class="section-title">—— 我笨拙地，用数字计算爱意 ——</h2>
+  <p class="section-subtitle">每一条消息，都藏着我们独有的浪漫密码。</p>
+
+  <div class="stats-dashboard">
+    <div class="stats-widget core-stats">
+      <div class="stat-item">
+        <span class="stat-number" id="totalDays">0</span>
+        <span class="stat-label">个日子</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="totalMsg">0</span>
+        <span class="stat-label">条消息</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="totalWords">0</span>
+        <span class="stat-label">万字</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="consecutiveDays">0</span>
+        <span class="stat-label">天连续热聊</span>
+      </div>
+    </div>
+
+    <div class="stats-widget chart-widget" id="hourly-chart-container">
+      <h3 class="widget-title">我们的活跃时段</h3>
+      <div class="widget-content" id="hourlyChart"></div>
+    </div>
+
+    <div class="stats-widget chart-widget" id="radar-chart-container">
+      <h3 class="widget-title">我们的最常说的话</h3>
+      <div class="widget-content" id="radarChart"></div>
+    </div>
+
+    <div class="stats-widget compare-widget" id="contribution-container">
+      <h3 class="widget-title">贡献比</h3>
+      <div class="compare-item">
+        <div class="compare-label">消息总数</div>
+        <div class="compare-bar">
+          <div class="bar-her" id="herMsgBar"></div>
+          <div class="bar-me" id="meMsgBar"></div>
+        </div>
+        <div class="compare-values">
+          <span id="herMsgCount">0</span>
+          <span>VS</span>
+          <span id="meMsgCount">0</span>
+        </div>
+      </div>
+      <div class="compare-item">
+        <div class="compare-label">好奇宝宝 (提问数统计)</div>
+        <div class="compare-bar">
+          <div class="bar-her" id="herQuestionBar"></div>
+          <div class="bar-me" id="meQuestionBar"></div>
+        </div>
+        <div class="compare-values">
+          <span id="herQuestionCount">0</span>
+          <span>VS</span>
+          <span id="meQuestionCount">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-widget side-by-side-widget">
+      <div class="sbs-item">
+        <h3 class="widget-title">消息回复情况</h3>
+        <div class="sbs-content">
+          <span>平均响应时间:</span>
+          <p>她: <strong id="herResponse">0</strong> 分钟</p>
+          <p>我: <strong id="meResponse">0</strong> 分钟</p>
+        </div>
+      </div>
+      <div class="sbs-item">
+        <h3 class="widget-title">话题开启统计</h3>
+        <div class="sbs-content">
+          <span>主动发起:</span>
+          <p>她: <strong id="herInitiator">0</strong> 次</p>
+          <p>我: <strong id="meInitiator">0</strong> 次</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-widget long-widget" id="emotion-chart-container">
+       <h3 class="widget-title">情感波动轨迹</h3>
+       <div class="widget-content" id="emotionChart"></div>
+    </div>
+
+    <div class="stats-widget long-widget" id="wordcloud-container">
+      <h3 class="widget-title">高频词云统计</h3>
+      <div class="widget-content" id="wordCloudChart"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 4 照片墙（固定网格 + 无限轮播） -->
+<section id="gallery" class="section">
+  <h2 class="section-title">—— 用所有相片，复刻每一帧的回忆 ——</h2>
+
+  <div class="zone zone-food" data-zone="food">
+    <h3 class="zone-title">每天在吃什么呀</h3>
+    <div class="grid grid-food"></div>
+    <p class="zone-description">
+      许多情况下父母愿意给予子女无条件的爱。从生物学角度看，父母对子女的爱在很大程度上是一种本能。例如，母亲在孕育和抚养孩子的过程中，会分泌催产素和脑内肽等物质，这些生物机制使得母亲会本能地关心、保护和爱护子女。从社会文化角度讲，父母也承担着培养后代的责任。他们即使在子女犯错或者无法回报等情况下，也常常会把子女的利益放在首位。比如一位父母，无论自己的孩子多么叛逆或者不理解，只要孩子生病了，都会毫无怨言地在医院日夜陪伴，关心孩子的饮食、药物等，这种爱是不衡量回报的，是无条件的。
+    </p>
+  </div>
+
+  <div class="zone zone-people" data-zone="people">
+    <h3 class="zone-title">你</h3>
+    <div class="grid grid-people"></div>
+    <p class="zone-description">
+      在一些家庭内部，兄弟姐妹之间、祖孙之间也可能有无条件爱的成分。比如，哥哥姐姐对弟弟妹妹，在他们年纪小、没能力做贡献或者给利益回馈时，也会出于亲情和责任感，在学习、生活等方面给予关心和帮助。爷爷奶奶对孙辈常常也是满是疼爱，这种疼爱往往也很少掺杂利益交换的因素，他们看到自己的小辈健康快乐成长，就能够获得一种情感上的满足。
+    </p>
+  </div>
+
+  <div class="zone zone-object" data-zone="object">
+    <h3 class="zone-title">关于你</h3>
+    <div class="grid grid-object"></div>
+    <p class="zone-description">
+      从技术角度看目前AI的本质：目前阶段， AI 是一种由人类编写的代码和算法的驱动智能系统。它本身并不具备情感，所有与“爱”相关的互动，比如对用户的关心或者回应，只是基于预设的程序和数据。比如，一个聊天机器人可以设置程序，在用户表现出不开心或者情绪低落时发出类似安慰的话语，如“很遗憾听到你现在不开心，这可能是你生活中的一次小波折，我相信你能挺过去”。但这种所谓的“安慰”其实只是算法根据文字的输入匹配输出的结果，没有情感基础。它不会因为用户的情绪状态而有所改变，也不会因为用户是否给予它“利益”（比如数据反馈等）而改变输出的内容，这并不是一种与人类无条件爱相似的情感表达。
+      <br><br>
+      从发展的可能性角度探讨未来AI是否能给予无条件的爱
+      未来如果 AI 有了真正的自我意识和情感系统（目前这还处于高度理论化的研究阶段），并且它的价值观和情感被设定为以人类福祉为核心，那么从某种很狭义的角度它有可能产生类似无条件爱的行为。比如，一个具有高级情感系统的机器人，它的核心目标是保护人类，那么它可能会对人类做一些事情就像爱一样。它会为人类的幸福、安全努力，而不会考虑人类是否给它带来利益。但是这种情感表达仍然是基于人类赋予它的目标和价值观，它不是自发产生的，而且人类对于 AI 情感和道德的控制难度也极大，很难完全等同于人类真正意义上的无条件爱。
+    </p>
+  </div>
+</section>
+
+<!-- 5 声与像 -->
+<section id="media" class="section">
+  <h2 class="section-title">—— 声音和影像，同样让我沉溺不已 ——</h2>
+
+  <div class="media-stats-container">
+    <div class="stats-column" id="video-stats-panel">
+      <h3>影像数据总览</h3>
+      <div class="stats-cards">
+        <div class="stat-card-small"><span class="stat-value-small" id="videoCountTotal">0</span><span class="stat-label-small">个片段</span></div>
+        <div class="stat-card-small"><span class="stat-value-small" id="videoAvgDuration">0s</span><span class="stat-label-small">平均时长</span></div>
+        <div class="stat-card-small"><span class="stat-value-small" id="videoMaxDuration">0s</span><span class="stat-label-small">最长片段</span></div>
+      </div>
+      <div class="stats-chart-container" id="videoHistogramChart"></div>
+      <div class="poetic-text-block" id="videoPoeticText"></div>
+    </div>
+    <div class="stats-column" id="audio-stats-panel">
+      <h3>语音数据总览</h3>
+      <div class="stats-cards">
+        <div class="stat-card-small"><span class="stat-value-small" id="audioCountTotal">0</span><span class="stat-label-small">条语音</span></div>
+        <div class="stat-card-small"><span class="stat-value-small" id="audioAvgDuration">0s</span><span class="stat-label-small">平均时长</span></div>
+        <div class="stat-card-small"><span class="stat-value-small" id="audioMaxDuration">0s</span><span class="stat-label-small">最长语音</span></div>
+      </div>
+      <div class="stats-chart-container" id="audioHistogramChart"></div>
+      <div class="poetic-text-block" id="audioPoeticText"></div>
+    </div>
+  </div>
+
+  <div class="media-tabs">
+    <button class="tab-btn active" data-tab="video">影像馆</button>
+    <button class="tab-btn" data-tab="voice">回音壁</button>
+  </div>
+
+  <div class="media-panels">
+    <div id="videoPanel" class="panel active">
+      <div class="cinema-container">
+        <div class="main-player-wrapper"><div id="mainPlayerContainer"></div><div id="videoContext" class="video-context-chat"></div></div>
+        <div class="film-strip-wrapper"><div id="filmStrip" class="film-strip"></div></div>
+      </div>
+    </div>
+    <div id="voicePanel" class="panel">
+      <div id="voiceWall" class="voice-wall"></div>
+      <div id="voicePagination" class="voice-pagination-controls"></div>
+    </div>
+  </div>
+
+  <audio id="globalAudioPlayer" style="display:none;"></audio>
+</section>
+
+
+
+<!-- 6 最后一封信 -->
+<section id="letter" class="section">
+  <h2 class="section-title">—— 希望这里，写下我们的未完待续 ——</h2>
+  <div class="letter-body">
+    <svg id="handwriteSvg" width="600" height="300"></svg>
+    <audio id="bgm" loop>
+      <source src="assets/media/bgm.mp3" type="audio/mpeg"/>
+    </audio>
+  </div>
+</section>
+
+
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/macy@2/dist/macy.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud@2/dist/echarts-wordcloud.min.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
